@@ -39,7 +39,7 @@ public class Main {
         bw.flush();
         bw.close();
     } // main end
-    static void bfs(int start){
+    static void dijkstra(int start){
         PriorityQueue<Node> queue = new PriorityQueue<>();
         queue.add(new Node(start, 0));
         while (!queue.isEmpty()){
@@ -69,4 +69,5 @@ public class Main {
             } // for end
         } // while end
     } // func end
+
 } // class end
