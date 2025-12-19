@@ -31,7 +31,7 @@ public class Main {
         N = Integer.parseInt(st.nextToken());   // 시작 위치
         K = Integer.parseInt(st.nextToken());   // 도착 위치
 
-        bfs(N);
+        dijkstra(N);
 
         answer.append(result);
 
@@ -71,3 +71,4 @@ public class Main {
     } // func end
 
 } // class end
+
